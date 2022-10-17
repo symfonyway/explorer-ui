@@ -26,7 +26,7 @@ Usage
 ========================
 
 Embed the index.js and index.css files (you can rename them, these names are just an example) on the page you want
-add foldersUI. Create an html block with id="folderWrapper", add data-href, data-files attributes
+add foldersUI. Create an html block with id="folderWrapper", add data-href, data-files attributes:
 
 * `the value of the data-files attribute is parsed into the folders and files list.
 (An example of how that object should looks like you can see in index.html)`
