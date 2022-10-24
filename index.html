@@ -8,14 +8,34 @@
     <script src="https://cdnout.com/sass.js/sass.js"></script>
     <link rel="stylesheet" href="index.css">
 
-    <title>Added Jquery into HTML</title>
+    <title>Explorer</title>
   </head>
   <body>
     <div class="container px-4 py-5"  >
       <div class="row"
         id="folderWrapper"
-        data-files="[{&quot;id&quot;:&quot;6hy9K15X&quot;,&quot;name&quot;:&quot;Atty&quot;,&quot;parent&quot;:null,&quot;icon&quot;:&quot;insert_drive_file&quot;},{&quot;id&quot;:&quot;htmbP1Ld&quot;,&quot;name&quot;:&quot;06.08.22 Signed A&amp;A.pdf&quot;,&quot;parent&quot;:&quot;6hy9K15X&quot;,&quot;icon&quot;:&quot;bi bi-filetype-pdf&quot;,&quot;path&quot;:&quot;PatientFiles\/66\/14466\/Atty\/06.08.22 Signed A&amp;A.pdf&quot;},{&quot;id&quot;:&quot;yRDUdNzX&quot;,&quot;name&quot;:&quot;General&quot;,&quot;parent&quot;:null,&quot;icon&quot;:&quot;insert_drive_file&quot;},{&quot;id&quot;:&quot;RZS3N1aK&quot;,&quot;name&quot;:&quot;Insurance&quot;,&quot;parent&quot;:null,&quot;icon&quot;:&quot;insert_drive_file&quot;},{&quot;id&quot;:&quot;qeoYM-uC&quot;,&quot;name&quot;:&quot;PIP Pmt 5.31-6.9.pdf&quot;,&quot;parent&quot;:&quot;RZS3N1aK&quot;,&quot;icon&quot;:&quot;bi bi-filetype-pdf&quot;,&quot;path&quot;:&quot;PatientFiles\/66\/14466\/Insurance\/PIP Pmt 5.31-6.9.pdf&quot;},{&quot;id&quot;:&quot;yCm5vS3o&quot;,&quot;name&quot;:&quot;Sharescape&quot;,&quot;parent&quot;:null,&quot;icon&quot;:&quot;insert_drive_file&quot;},{&quot;id&quot;:&quot;jDEUnIN-&quot;,&quot;name&quot;:&quot;Cuellar, Maria Del Carmen Intake.pdf&quot;,&quot;parent&quot;:&quot;yCm5vS3o&quot;,&quot;icon&quot;:&quot;bi bi-filetype-pdf&quot;,&quot;path&quot;:&quot;PatientFiles\/66\/14466\/Sharescape\/Cuellar, Maria Del Carmen Intake.pdf&quot;},{&quot;id&quot;:&quot;Cdl9eCJX&quot;,&quot;name&quot;:&quot;Exam&quot;,&quot;parent&quot;:&quot;yCm5vS3o&quot;,&quot;icon&quot;:&quot;insert_drive_file&quot;},{&quot;id&quot;:&quot;QsTfFCO0&quot;,&quot;name&quot;:&quot;07.11.22 Progress.pdf&quot;,&quot;parent&quot;:&quot;Cdl9eCJX&quot;,&quot;icon&quot;:&quot;bi bi-filetype-pdf&quot;,&quot;path&quot;:&quot;PatientFiles\/66\/14466\/Sharescape\/Exam\/07.11.22 Progress.pdf&quot;},{&quot;id&quot;:&quot;gLhI5F3e&quot;,&quot;name&quot;:&quot;08.24.22 Progress.pdf&quot;,&quot;parent&quot;:&quot;Cdl9eCJX&quot;,&quot;icon&quot;:&quot;bi bi-filetype-pdf&quot;,&quot;path&quot;:&quot;PatientFiles\/66\/14466\/Sharescape\/Exam\/08.24.22 Progress.pdf&quot;},{&quot;id&quot;:&quot;5wqd36ZO&quot;,&quot;name&quot;:&quot;Copy of 05.26.22 Initial.pdf&quot;,&quot;parent&quot;:&quot;Cdl9eCJX&quot;,&quot;icon&quot;:&quot;bi bi-filetype-pdf&quot;,&quot;path&quot;:&quot;PatientFiles\/66\/14466\/Sharescape\/Exam\/Copy of 05.26.22 Initial.pdf&quot;},{&quot;id&quot;:&quot;QLxlTCar&quot;,&quot;name&quot;:&quot;Tx Plan&quot;,&quot;parent&quot;:null,&quot;icon&quot;:&quot;insert_drive_file&quot;},{&quot;id&quot;:&quot;iWt1NRd5&quot;,&quot;name&quot;:&quot;05.26.22 Tx Plan.pdf&quot;,&quot;parent&quot;:&quot;QLxlTCar&quot;,&quot;icon&quot;:&quot;bi bi-filetype-pdf&quot;,&quot;path&quot;:&quot;PatientFiles\/66\/14466\/Tx Plan\/05.26.22 Tx Plan.pdf&quot;},{&quot;id&quot;:&quot;r0ZtPc5H&quot;,&quot;name&quot;:&quot;07.11.22 Tx Plan.pdf&quot;,&quot;parent&quot;:&quot;QLxlTCar&quot;,&quot;icon&quot;:&quot;bi bi-filetype-pdf&quot;,&quot;path&quot;:&quot;PatientFiles\/66\/14466\/Tx Plan\/07.11.22 Tx Plan.pdf&quot;}]"
-        data-href="/portal/patient/document/download"
+        data-files='[
+          {"id": "Hazbin", "name": "Hazbin Hotel", "parent": null, "icon": "insert_drive_file"},
+          {"id": "Demons", "name": "Demons", "parent": "Hazbin", "icon": "insert_drive_file"},
+          {"id": "Angels", "name": "Angels", "parent": "Hazbin", "icon": "insert_drive_file"},
+          {"id": "Lucifer", "name": "Lucifer - The King of Hell", "parent": "Demons", "icon": "bi bi-file-earmark-image", "path": "https://static.zerochan.net/Lucifer.%28Hazbin%29.full.2881249.jpg"},
+          {"id": "Charlie", "name": "Charlie Morningstar", "parent": "Demons", "icon": "bi bi-file-earmark-image", "path": "https://pm1.narvii.com/7762/7dfd1f2fd42923f44c8f3e412a07ce04f77b6aabr1-1200-1179v2_hq.jpg"},
+          {"id": "Lilith", "name": "Lilith", "parent": "Demons", "icon": "bi bi-file-earmark-image", "path": "https://i.pinimg.com/736x/b9/d0/ce/b9d0ce558c7967f24b46555cbde47634.jpg"},
+          {"id": "Alastor", "name": "Alastor", "parent": "Demons", "icon": "bi bi-file-earmark-image", "path": "https://i1.sndcdn.com/artworks-000638406898-mk0snn-t500x500.jpg"},
+          {"id": "Cletus", "name": "Cletus", "parent": "Angels", "icon": "bi bi-file-earmark-image", "path": "https://static.wikia.nocookie.net/hazbinhotel/images/6/6c/RenderedCanonCletus.png/revision/latest?cb=20210318125124"},
+          {"id": "Collin", "name": "Collin", "parent": "Angels", "icon": "bi bi-file-earmark-image", "path": "https://static.wikia.nocookie.net/hazbinhotel/images/6/61/Collin.png/revision/latest?cb=20210322031817"},
+          {"id": "Keenie", "name": "Keenie", "parent": "Angels", "icon": "bi bi-file-earmark-image", "path": "https://static.wikia.nocookie.net/hazbinhotel/images/a/a3/RenderedKeenie.png/revision/latest?cb=20210318154717"},
+          {"id": "Deerie", "name": "Deerie", "parent": "Angels", "icon": "bi bi-file-earmark-image", "path": "https://static.wikia.nocookie.net/hazbinhotel/images/6/6f/Deerie_Render.png/revision/latest?cb=20210319135159"},
+          {"id": "Dota", "name": "Dota 2", "parent": null, "icon": "insert_drive_file"},
+          {"id": "Lol", "name": "league of legends", "parent": null, "icon": "insert_drive_file"},
+          {"id": "Berserk", "name": "Berserk", "parent": null, "icon": "insert_drive_file"},
+          {"id": "Magic", "name": "Magic battle", "parent": null, "icon": "insert_drive_file"},
+          {"id": "Rammstein", "name": "Rammstein", "parent": null, "icon": "insert_drive_file"},
+          {"id": "System", "name": "System of a down", "parent": null, "icon": "insert_drive_file"},
+          {"id": "Empty", "name": "Empty", "parent": null, "icon": "insert_drive_file"},
+          {"id": "cat", "name": "cat.png", "parent": null, "icon": "bi bi-file-earmark-image", "path": ""}
+        ]'
+        data-href=""
       ></div>
     </div>
     <script src="./index.js"></script>

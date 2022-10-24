@@ -40,11 +40,11 @@ $(document).ready(function() {
             } 
 
             const searchParam = new URLSearchParams({'key' : el.path});
-
+            const href = path ? path + '?' + searchParam.toString() : el.path;
             return `
-                <div class='feature col folder' tabindex="0">
+                <div class='feature col form' tabindex="0">
                     <div id='${el.id}' class="card" data-toggle="tooltip" title="${el.name}">
-                        <a href='${path + '?' + searchParam.toString()}' target='_blank' class='card-body d-flex align-items-center'>
+                        <a href='${href}' target="_blank" class='card-body d-flex align-items-center'>
                             <div class="feature-icon px-1 d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
                                 <i class="${el.icon}" width="1em" height="1em"/>
                             </div>
