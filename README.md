@@ -26,6 +26,7 @@ Preview
 ========================
 ![image](https://user-images.githubusercontent.com/54947497/197537869-a1203574-dcc2-4196-b1db-737f5c806833.png)
 ![image1](https://user-images.githubusercontent.com/54947497/197539480-bffb9379-670c-45ae-8892-f42cd98d291a.jpg)
+![image](https://user-images.githubusercontent.com/54947497/197542336-43ae128b-ae7d-4cc4-bf8e-c88cef62174c.png)
 
 Usage
 ========================
