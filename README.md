@@ -1,5 +1,3 @@
-![image](https://user-images.githubusercontent.com/54947497/197493147-33fdce94-5b65-46c2-b0b7-a2f2c1e469c3.png)
-
 Read before usage
 ========================
 
@@ -23,6 +21,11 @@ This project includes three files, but only .js and .css files are worth paying 
 
 * `index.css needs for animations`
 * `index.js contains the main logic`
+
+Preview
+========================
+![image](https://user-images.githubusercontent.com/54947497/197537869-a1203574-dcc2-4196-b1db-737f5c806833.png)
+![image1](https://user-images.githubusercontent.com/54947497/197539480-bffb9379-670c-45ae-8892-f42cd98d291a.jpg)
 
 Usage
 ========================
